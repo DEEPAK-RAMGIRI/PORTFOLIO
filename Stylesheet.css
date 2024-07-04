@@ -36,7 +36,7 @@ body{
     transition: .3s;
 }
 .navbar a:hover{
-    color: #9BEC00;
+    color: #08f7ff;
 }
 .home{
     position: relative;
@@ -72,22 +72,22 @@ body{
     height: 40px;
     width: 40px ;
     background: transparent;
-    border: 2px solid #9BEC00;
+    border: 2px solid  #08f7ff;
     border-radius: 50%;
     font-size: 20px;
-    color: #9BEC00;
+    color:  #08f7ff;
     text-decoration: none;
     margin: 30px 15px 30px 0;
 }
 .home-sci a:hover{
-    background: #9BEC00;
+    background:  #08f7ff;
     color: black;
-    box-shadow: 0 0 20px #9BEC00;
+    box-shadow: 0 0 20px  #08f7ff;
 }
 .btn-box{
     display: inline-block;
     padding: 12px 20px;
-    background-color: #9BEC00;
+    background-color:  #08f7ff;
     border-radius: 40px;
     letter-spacing: 1px;
     text-decoration: none;
@@ -96,5 +96,5 @@ body{
 .btn-box:hover{
     box-shadow: 0 0 5px #9BEC00,
     0 0 25px #9BEC00,0 0 50px #9BEC00,
-    0 0 75px #9BEC00,0 0 100px #9BEC00;  
+    0 0 75px #9BEC00,0 0 100px  #08f7ff;  
 }
