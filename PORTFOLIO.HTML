@@ -3,39 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTFOLIO</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="Stylesheet.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo"> PortFolio</a>
+        <a href="#" class="logo">Portfolio</a>
         <nav class="navbar">
-            <a href="#">HOME</a>
-            <a href="#">ABOUT</a>
-            <a href="#">SKILLS</a>
-            <a href="#">PORTFOLIO</a>
-            <a href="#">ABOUT ME</a>
+            <a href="#home" style="--i:1" class="active">HOME</a>
+            <a href="#about" style="--i:2">ABOUT</a>
+            <a href="#skills" style="--i:3">SKILLS</a>
+            <a href="#" style="--i:4">PORTFOLIO</a>
+            <a href="#contact" style="--i:5">CONTACT</a>
         </nav>
     </header>
-   
-    <section class="home">
-        <div class="home-content">
-            <h3>Hello! It's me </h3>
-            <h1>RAMGIRI DEEPAK KUMAR</h1>
-            <h3>And I'm a</h3>
-            <p> B.tech student of SR University at Warangal</br>
-            I completed my 1st & 2nd year with 9+CGPA</br>
-            I'm a studing 3rd year in CSE Department </br> for more please scroll.....</p>
-            <div class="home-sci">
-                <a href="#"><i class='bx bxl-instagram'></i></box-icon></a>
-                <a href="#"><i class='bx bxl-github'></i></a>
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
-                <a href="#"><i class='bx bxl-whatsapp' ></i></a>
-            </div>
-            <a href="#" class="btn-box">More About me</a>
-        </div>
 
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello! It's me</h3>
+            <h1>Ramgiri <span class="color">Deepak</span> Kumar</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+                <p>
+                B.Tech student at SR University, Warangal
+                I completed my 1st & 2nd year with a GPA of 9+ and I am currently studying in the 3rd year in the CSE Department. For more, please scroll down...
+            </p>
+            <div class="home-sci">
+                <!-- <a href="https://www.instagram.com/deepakramgiri/" style="--i:6"><i class='bx bxl-instagram' style="color:#E4405F"></i></a> -->
+                <a href="https://github.com/DEEPAK-RAMGIRI" style="--i:7"><i class='bx bxl-github' style="color:black "></i></a>
+                <a href="#" style="--i:8"><i class='bx bxl-linkedin' style="color:blue"></i></a>
+                <!-- <a href="#" style="--i:9"><i class='bx bxl-whatsapp' style="color:lightgreen"></i></a> -->
+            </div>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
     </section>
+
+    <section class="about" id="about">
+        <div class="about-text">
+            <h2 class="sub-title">ABOUT <span class="color">ME</span></h2>
+            <h4>I am currently pursuing my B.Tech at SR University</h4>
+            <p>
+                My name is Ramgiri <span class="color">Deepak</span> Kumar , and I am a dedicated student with a strong academic background.
+                I successfully completed my<span class="color">11th and 12th grades</span>  with an outstanding <span class="color">85% </span>average. 
+                Currently enrolled in the <span class="color">B.Tech </span>program at <span class="color">SR University</span>, Hanamakonda, I have consistently maintained 
+                a <span class="color">GPA of 9+ </span>over four semesters. My proficiency spans across several programming languages including C, 
+                <span class="color">Python, Java, HTML, CSS, and JavaScript. </span>Beyond academics, I am deeply passionate about innovation and 
+                enjoy leveraging my skills to create impactful solutions. I am eager to contribute my expertise to 
+                challenging projects and explore opportunities that allow me to further develop professionally. 
+                I am committed to continuous learning and growth, seeking to make a meaningful impact in my field.
+            </p>
+            <!-- <a href="#" class="btn-box">More About Me</a> -->
+        </div>
+    </section>
+
+    
+    <section class="skills" id="skills">
+        <h1 class="sub-title">My <span class="color">Skills</span></h1>
+        <div class="container">
+            <div class="Technical-bars">
+                <div class="bar">
+                    <i style="color: #C95d2e" class='bx bxl-html5'></i>
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <i style="color: #147bbc" class='bx bxl-css3'></i>
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <i style="color: #b0bc1e" class='bx bxl-javascript'></i>
+                    <div class="info">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="progress-line js">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <i style="color: #c32ec9" class='bx bxl-python'></i>
+                    <div class="info">
+                        <span>Python</span>
+                    </div>
+                    <div class="progress-line python">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <i style="color: #5283a2" class='bx bxl-java'></i>
+                    <div class="info">
+                        <span>Java</span>
+                    </div>
+                    <div class="progress-line java">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+    <div class="contact-text">
+        <h2>CONTACT <span class="color">ME</span></h2>
+        <h4>want to talk to me</h4>
+        <p>
+             If you want to know about me or you want to talk to me just message via insta or call at this number or email me or just message at these right side.
+             i will definately give response.
+        </p>
+        <div class="contact-list">
+            <li><i class='bx bx-send'></i> ramgirideepak89@gmail.com</li>
+            <li><i class='bx bx-phone'></i> 63XXXXXXX3</li>
+        </div>
+        <div class="contact-icons">
+            <a href="https://www.instagram.com/deepakramgiri/" style="--i:10"><i class='bx bxl-instagram' style="color:#E4405F"></i></a>
+            <!-- <a href="#" style="--i:11" ><i class='bx bxl-linkedin' style="color:blue" ></i></a> -->
+            <a href="#" style="--i:12" ><i class='bx bxl-whatsapp' style="color:lightgreen"></i></a>
+        </div>
+    </div>
+    <div class="contact-form">
+        <form action="">
+            <input type="" placeholder="Enter Your Name" required>
+            <input type="email" placeholder="Enter your Email" required>
+            <input type="" placeholder="your reason">
+            <textarea name="" id="" cols="40" rows="10" placeholder="message"></textarea>
+            <input type="submit" value="submit" class="send"> 
+
+        
+        </form>
+    </div>
+    </section>
+
+    <script src="./javascript.js"></script>
 </body>
 </html>
