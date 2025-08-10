@@ -1,9 +1,0 @@
-streamlit
-langchain
-langchain-huggingface
-langchain-community
-langchain-google-genai
-langchain-chroma
-chromadb
-python-dotenv
-pandas
