@@ -1,7 +1,9 @@
 var typed = new Typed('.text', {
   strings: [
     'Student',
-    'Web Developer',
+    'Fast Learner',
+    'AI Enthusiast',
+    ' Pythonista',
   ],
   typeSpeed: 50,
   backSpeed: 80,
